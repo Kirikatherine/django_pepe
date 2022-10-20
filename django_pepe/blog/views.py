@@ -7,7 +7,7 @@ def get_all_topics(request):
     all_topics = Topic.objects.all()
     allowed_viewer = User.object.get(pk=1)
     greetings = [
-        'hello',
+        'hallo',
         'welcome', 
     ]
     simple_html_el = "<h1>Zagolovok</h1>"

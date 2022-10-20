@@ -8,7 +8,7 @@ def get_all_topics(request):
     allowed_viewer = User.object.get(pk=1)
     greetings = [
         'hallo',
-        'welcome', 
+        'bebra', 
     ]
     simple_html_el = "<h1>Zagolovok</h1>"
     return render(request, 'blog/all_topics.html', {'all_topics': all_topics})
